@@ -22,7 +22,7 @@ jobs:
         poetry run pre-commit run --all-files
 
   tests:
-    needs: pre-commit
+    #needs: pre-commit
     runs-on: ubuntu-latest
 
     steps:
